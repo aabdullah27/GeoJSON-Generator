@@ -20,7 +20,7 @@ graph TD
         A["Streamlit UI (app.py)"]
     end
 
-    subgraph Backend (FastAPI)
+    subgraph "Backend (FastAPI)"
         B["Endpoint<br/>/api/v1/generate-geojson"]
         C{"Processor Factory"}
         D["File Processors<br/>(CSV, Excel, KML, SHP)"]
